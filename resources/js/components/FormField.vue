@@ -54,6 +54,9 @@ export default {
     },
 
     computed: {
+        showHelpText() {
+          return !!this.field.helpText;
+        },
         draftId: function () {
             return this.defaultEditorConfig.nova.draftId
         },
