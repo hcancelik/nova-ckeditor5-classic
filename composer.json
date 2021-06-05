@@ -1,5 +1,5 @@
 {
-    "name": "numaxlab/nova-ckeditor5-classic",
+    "name": "hcancelik/nova-ckeditor5-classic",
     "description": "A Laravel Nova CKEditor5 Classic Field.",
     "keywords": [
         "laravel",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NumaxLab\\NovaCKEditor5Classic\\": "src/"
+            "Hcancelik\\NovaCKEditor5Classic\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NumaxLab\\NovaCKEditor5Classic\\FieldServiceProvider"
+                "Hcancelik\\NovaCKEditor5Classic\\FieldServiceProvider"
             ]
         }
     },

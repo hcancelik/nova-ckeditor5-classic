@@ -1,9 +1,9 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic\Handlers;
+namespace Hcancelik\NovaCKEditor5Classic\Handlers;
 
 use Illuminate\Http\Request;
-use NumaxLab\NovaCKEditor5Classic\Models\PendingAttachment;
+use Hcancelik\NovaCKEditor5Classic\Models\PendingAttachment;
 
 class DiscardPendingAttachments
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic\Models;
+namespace Hcancelik\NovaCKEditor5Classic\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;

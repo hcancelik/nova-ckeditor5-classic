@@ -1,14 +1,14 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic;
+namespace Hcancelik\NovaCKEditor5Classic;
 
 use Laravel\Nova\Fields\Trix;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use NumaxLab\NovaCKEditor5Classic\Handlers\DiscardPendingAttachments;
-use NumaxLab\NovaCKEditor5Classic\Handlers\StorePendingAttachment;
-use NumaxLab\NovaCKEditor5Classic\Models\PendingAttachment;
-use NumaxLab\NovaCKEditor5Classic\Models\DeleteAttachments;
-use NumaxLab\NovaCKEditor5Classic\Models\DetachAttachment;
+use Hcancelik\NovaCKEditor5Classic\Handlers\DiscardPendingAttachments;
+use Hcancelik\NovaCKEditor5Classic\Handlers\StorePendingAttachment;
+use Hcancelik\NovaCKEditor5Classic\Models\PendingAttachment;
+use Hcancelik\NovaCKEditor5Classic\Models\DeleteAttachments;
+use Hcancelik\NovaCKEditor5Classic\Models\DetachAttachment;
 
 class CKEditor5Classic extends Trix
 {

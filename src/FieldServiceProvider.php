@@ -1,6 +1,6 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic;
+namespace Hcancelik\NovaCKEditor5Classic;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

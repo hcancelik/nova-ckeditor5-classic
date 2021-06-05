@@ -1,6 +1,6 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic\Http\Controllers;
+namespace Hcancelik\NovaCKEditor5Classic\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;

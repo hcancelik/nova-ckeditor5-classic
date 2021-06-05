@@ -1,5 +1,5 @@
 <template>
-    <default-field :field="field" :errors="errors" :full-width-content="true">
+    <default-field :field="field" :errors="errors" :full-width-content="true" :show-help-text="showHelpText">
         <template slot="field">
             <div class="rounded-lg form-control auto-height">
                 <ckeditor
