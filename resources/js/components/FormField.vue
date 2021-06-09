@@ -48,19 +48,7 @@ export default {
                 extraPlugins: [
                     this.createUploadAdapterPlugin
                 ],
-                link: {
-                  decorators: {
-                    openInNewTab: {
-                      mode: 'manual',
-                      label: 'Open in a new tab',
-                      defaultValue: true,
-                      attributes: {
-                        target: '_blank',
-                        rel: 'noopener noreferrer'
-                      }
-                    }
-                  }
-                }
+                link: this.field.options.link
             }
         }
     },
